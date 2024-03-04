@@ -33,20 +33,7 @@ public class Car2 {
             this.year = year;
             return  this;
         }
-        public Car2 build() {
-            Car2 car2 = new Car2();
 
-            if (this.make != null){
-                car2.setMake(this.make);
-            }
-            if (this.topSpeed != null){
-                car2.setTopSpeed(this.topSpeed);
-            }
-            if (this.year != null){
-                car2.setYear(this.year);
-            }
-
-        }
 
     }
 
