@@ -18,6 +18,7 @@ public class BigDecimalDemo {
         BigDecimal b3 = BigDecimal.TEN;
         BigDecimal b4 = BigDecimal.ONE;
 
+
         System.out.println(b1.subtract(b2));
         System.out.println(b1.add(BigDecimal.TEN));
         System.out.println(b1.multiply(new BigDecimal("15.00")));
